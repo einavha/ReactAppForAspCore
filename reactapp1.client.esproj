@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.2752196">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Vitest</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\assets\" />
+    <Folder Include="src\pages\Admin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="public\Posts\images\ADON_5_Exclusive_Cover_star_Supermodel_Adam_Senn_in_Top_Of_The_Pop.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\Posts\images\Adon_Exclusive_Models_Chris_Clark_and_Austin_Sikora_By_Blake_Ballard.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\Posts\images\Adon_Exclusive_Model_ALASDAIR_RUSSELL_By_MALCOLM_JORIS.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\Posts\images\Adon_Exclusive_Model_Don_Hood_By_Blake_Ballard.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\Posts\images\Adon_Exclusive_Model_Eduardo_Schuelter_By_Rodrigo_Marconatto.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\Posts\images\Adon_Exclusive_Model_Karpenko_Gleb_By_post_ivan.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\Posts\images\Adon_Exclusive_Model_krupnov_ifbbpro_By_post_ivan.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\Posts\images\Adon_Exclusive_Model_vasaboy__By_mauriziomontani.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\Posts\images\Adon_Magazine_X_Kenny_Scharf_Issue_9_-_Summer_2014.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\Posts\images\Nick_Jonas_X_Adon_Magazine.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\Posts\images\TYGA_X_Ron_English_-_Adon_Magazine_Issue_23.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\Posts\images\Video_Killed_The_Radio_Star_Featuring_Model_Gil_Soares_By_Ted_Sun.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="public\theMagazine.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

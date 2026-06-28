@@ -1,0 +1,35 @@
+.post-page {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+}
+
+.post-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 16px;
+    text-align: var(--text-alignment);
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 12px;
+    object-fit: cover;
+}
+
+.post-title {
+    margin: 0 0 8px;
+}
+
+.post-author {
+    margin: 0 0 12px;
+    color: var(--muted);
+}
+
+.post-content {
+    margin: 0;
+    white-space: pre-wrap;
+}

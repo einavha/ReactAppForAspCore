@@ -1,0 +1,91 @@
+.magazine {
+    text-align: var(--text-alignment);
+}
+
+.magazine h1 {
+    margin: 0 0 24px;
+}
+
+.magazine-logo {
+    /*width: 1000px;*/
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0;
+}
+
+.images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0px;
+}
+
+.article-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04);
+}
+
+.img-card {
+    width: 300px; /* Or a specific pixel width */
+    height: 200px; /* Your specific height */
+    object-fit: cover; /* Crops the image to fit without stretching */
+    object-position: center; /* Optional: Centers the crop */
+    background: var(--card);
+    border: 0px solid var(--border);
+    /*border-radius: 16px;*/
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    /*box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04);*/
+}
+
+
+.article-card h2 {
+    margin: 0;
+}
+
+.article-author {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.article-excerpt {
+    color: var(--text);
+    margin: 0;
+}
+
+.read-more {
+    align-self: flex-start;
+    margin-top: auto;
+    padding: 8px 14px;
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.article-title-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.article-thumb {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid var(--border);
+}
